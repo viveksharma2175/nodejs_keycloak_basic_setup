@@ -18,7 +18,7 @@ In Clients, go to installation and select “Keycloak OIDC JSON” then copy the
 Once the user is created, go to “Credentials” and add the password and the click on “Reset Password”
 ![alt text](https://raw.githubusercontent.com/viveksharma2175/nodejs_keycloak_basic_setup/master/images/user_2.png)
 
-Once this setup is complete, go to a web browser and type http:localhost:3000
+Once this setup is complete, go to a web browser and type http:localhost:3000 and http:localhost:3001 in another tab.
 
 ![alt text](https://raw.githubusercontent.com/viveksharma2175/nodejs_keycloak_basic_setup/master/images/index_page.png)
 
