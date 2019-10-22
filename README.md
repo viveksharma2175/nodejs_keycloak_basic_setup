@@ -20,7 +20,7 @@ Once the user is created, go to “Credentials” and add the password and the c
 
 Once this setup is complete, go to a web browser and type http:localhost:3000
 
-![alt text](https://raw.githubusercontent.com/viveksharma2175/nodejs_keycloak_basic_setup/master/images/index.png)
+![alt text](https://raw.githubusercontent.com/viveksharma2175/nodejs_keycloak_basic_setup/master/images/index_page.png)
 
 Click on Login and add the user details added in keycloak setup.
 NOTE: You will not be able to access the Members page without login too
