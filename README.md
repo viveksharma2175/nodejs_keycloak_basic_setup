@@ -19,6 +19,7 @@ Once the user is created, go to “Credentials” and add the password and the c
 ![alt text](https://raw.githubusercontent.com/viveksharma2175/nodejs_keycloak_basic_setup/master/images/user_2.png)
 
 Once this setup is complete, go to a web browser and type http:localhost:3000
+
 ![alt text](https://raw.githubusercontent.com/viveksharma2175/nodejs_keycloak_basic_setup/master/images/index.png)
 
 Click on Login and add the user details added in keycloak setup.
