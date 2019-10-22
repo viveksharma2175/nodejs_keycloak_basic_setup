@@ -1,0 +1,17 @@
+version: '3.2'
+
+services:
+  microservice:
+    build: microservice
+    ports:
+      - 3000:3000
+    volumes:
+      - ./microservice:/app
+  keycloak:
+    image: 'jboss/keycloak'
+    environment:
+      - KEYCLOAK_PASSWORD=pass
+      - KEYCLOAK_USER=admin
+      - PROXY_ADDRESS_FORWARDING=true
+    ports:
+      - 8080:8080
