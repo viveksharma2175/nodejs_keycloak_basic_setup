@@ -26,8 +26,11 @@ Click on Login and add the user details added in keycloak setup.
 NOTE: You will not be able to access the Members page without login too
 ![alt text](https://raw.githubusercontent.com/viveksharma2175/nodejs_keycloak_basic_setup/master/images/login.png)
 
-Once logged in in one service, you will also be able to access the Members page without login on another service
-![alt text](https://raw.githubusercontent.com/viveksharma2175/nodejs_keycloak_basic_setup/master/images/index_page_2.png)
-
 You will be able to see the token received from keycloak in results.
 Now, if you try to access the Members page, you will be allowed and you can see the token details in results.
+
+
+Once logged in in one service, you will also be able to access the Members page without login on another service
+
+![alt text](https://raw.githubusercontent.com/viveksharma2175/nodejs_keycloak_basic_setup/master/images/index_page_2.png)
+
