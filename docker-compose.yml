@@ -7,6 +7,12 @@ services:
       - 3000:3000
     volumes:
       - ./microservice:/app
+  microservice_2:
+    build: microservice_2
+    ports:
+      - 3001:3001
+    volumes:
+      - ./microservice_2:/app
   keycloak:
     image: 'jboss/keycloak'
     environment:
